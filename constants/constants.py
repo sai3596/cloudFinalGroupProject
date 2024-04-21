@@ -13,10 +13,10 @@ class DataInsightsConstants:
                             "='{}'"
         UPLOAD_RETRY_MESSAGE = "Please upload file again in a bit."
         DATABASE_CONNECTION_OBJECT = {
-        'host': 'cc-final-project-server.mysql.database.azure.com',
-        'user': 'sudouser',
-        'password': 'Family@4',
-        'database': 'mydatabase'
+        'host': '********',
+        'user': '*******',
+        'password': '******',
+        'database': '*******'
         }
         HOUSE_HOLD_INSERT = "INSERT INTO households (HSHD_NUM,L,AGE_RANGE,MARITAL,INCOME_RANGE,HOMEOWNER,HSHD_COMPOSITION,HH_SIZE,CHILDREN) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)"
         TRANSACTIONS_INSERT = "INSERT INTO transactions (BASKET_NUM,HSHD_NUM,PURCHASE_,PRODUCT_NUM,SPEND,UNITS,STORE_R,WEEK_NUM,YEAR_NUM) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)"
